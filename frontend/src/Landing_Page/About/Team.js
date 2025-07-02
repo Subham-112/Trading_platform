@@ -10,7 +10,7 @@ export default function AboutTeam() {
             width: "50%",
             paddingLeft: "9rem",
             paddingRight: "1rem",
-            fontSize: "1.1rem",
+            fontSize: "1.1rem"
           }}
         >
           <p style={{width: '90%',lineHeight: '30px'}}>
