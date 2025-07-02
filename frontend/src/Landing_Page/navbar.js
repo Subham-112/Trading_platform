@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "white"}}>
       <div class="container p-2">
-        <a class="navbar-brand" to="/">
+        <Link class="navbar-brand" to="/">
           <img style={{width: '30%'}} src="media/images/logo.svg" />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -22,34 +23,34 @@ export default function NavBar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" to="/signup">
+                <Link class="nav-link active" aria-current="page" to="/signup">
                     Signup
-                </a>
+                </Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" to="/about">
+                <Link class="nav-link active" to="/about">
                     About
-                </a>
+                </Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" to="/product">
+                <Link class="nav-link active" to="/product">
                     Product
-                </a>
+                </Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" to="/pricing">
+                <Link class="nav-link active" to="/pricing">
                     Pricing
-                </a>
+                </Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" to="/support">
+                <Link class="nav-link active" to="/support">
                     Support
-                </a>
+                </Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" to="#">
+                <Link class="nav-link active" to="#">
                     <i class="fs-5 mt-1 fa-solid fa-bars"></i>
-                </a>
+                </Link>
                 </li>
             </ul>
           </form>
