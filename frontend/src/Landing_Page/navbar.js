@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "white"}}>
+    <nav class="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "white", position: 'sticky'}}>
       <div class="container p-2">
         <Link class="navbar-brand" to="/">
-          <img style={{width: '30%'}} src="media/images/logo.svg" />
+          <img style={{width: '23%', marginLeft: '6.6rem'}} src="media/images/logo.svg" />
         </Link>
         <button
           class="navbar-toggler"
@@ -19,7 +19,7 @@ export default function NavBar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" style={{marginLeft: '-6.4rem'}} id="navbarSupportedContent">
           <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
