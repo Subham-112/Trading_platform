@@ -1,0 +1,81 @@
+.supp-hero {
+    color: white;
+    background-color: #387ed1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-ii {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    padding-bottom: 7rem;
+}
+
+.hero-inp {
+    width: 97%;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-inp input {
+    width: 500px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+}
+
+.hero-inp i {
+    color: rgb(117, 117, 117);
+    font-size: 1.2rem;
+}
+
+.link-row-i {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.col-tw {
+    height: 100%;
+    padding-left: 1rem;
+}
+
+.col-tw h6 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6rem;
+}
+
+.col-tw h4 {
+    margin-bottom: 0.5rem;
+}
+
+.col-tw ol {
+    padding-left: 3rem;
+}
+
+.col-tw ol li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+
+
+.supp-tick {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
