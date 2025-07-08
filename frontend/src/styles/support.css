@@ -72,10 +72,63 @@
     margin-bottom: 1rem;
 }
 
-
+/* Ticket Component */
 
 .supp-tick {
     color: black;
     display: flex;
     justify-content: center;
+}
+
+.tick {
+    flex-direction: column;
+}
+
+.tick h4 {
+    width: 100%;
+    color: rgb(125, 125, 125);
+    font-weight: 400;
+    margin-bottom: 3rem;
+    margin-left: -0.3rem;
+}
+
+.tick .row {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.tick-rw {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tick-rw a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.tick-rw a p {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.tick-rw a i {
+    font-size: 1.2rem;
+}
+
+.tick-rw ul {
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+.tick-rw ul li {
+    color: rgb(29, 117, 225);
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
 }
