@@ -3,7 +3,7 @@ export default function SignupSec() {
     <div className="container">
       <div className="row">
         <div
-          className="col-6 border mt-5"
+          className="col-6 mt-5"
           style={{
             display: "flex",
             justifyContent: "flex-end",
@@ -18,7 +18,7 @@ export default function SignupSec() {
             }}
           />
         </div>
-        <div className="col-6 border mt-5 p-3">
+        <div className="col-6 mt-5 p-3">
           <div className="row">
             <h2 style={{ marginLeft: "5.2rem" }}>Signup now</h2>
             <p style={{ marginLeft: "5.2rem" }}>
